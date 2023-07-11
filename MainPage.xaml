@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xmarin.Forms_label.MainPage">
+
+    <StackLayout Margin="20, 35, 20, 20">
+        <Label FontSize="Medium" HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold">Programación orientada a objetos</Span>
+                    <Span FontAttributes="Italic" >es un paradigma de la progrmación</Span>
+                    <Span TextDecorations="Strikethrough">que nos ayuda a obtener mejores resultados</Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+
+</ContentPage>
